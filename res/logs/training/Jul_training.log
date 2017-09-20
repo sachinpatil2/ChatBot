@@ -1,0 +1,4 @@
+Mon Jul 03 17:26:28 IST 2017 domain:trip user:John task:start utterance:Boot a ticket
+Mon Jul 03 17:52:05 IST 2017 domain:trip user:John task:start utterance:non-veg
+Wed Jul 05 16:08:45 IST 2017 domain:hotel user:John task:start utterance:organization:AutoZone;
+Wed Jul 05 17:26:57 IST 2017 domain:trip user:John task:getTripInformation utterance:book

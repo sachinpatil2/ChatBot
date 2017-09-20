@@ -1,0 +1,38 @@
+<html>
+
+<head>
+<style> 
+@-webkit-keyframes example {
+    0%   { right:0px; bottom:0px;}
+    25%  { right:0px; bottom:200px;}
+ 
+}
+@keyframes example {
+    0%   { right:0px; bottom:0px;}
+    25%  { right:0px; bottom:200px;}
+  
+}
+</style>
+
+
+<script type="text/javascript">
+
+ 
+ function iframeChange() {
+    var buttons = document.querySelector("#someButtonId"),
+        iframe = document.getElementById('frame');
+
+    buttons.addEventListener("click", function (e) {
+	 iframe.style.display='block';
+        iframe.src = "http://10.77.216.50:8080/";
+        
+    });
+};
+window.onload = iframeChange;
+</script>
+</head>
+<body>
+
+<iframe tabindex="-1" role="presentation" title="Intentionally blank" name="lpSS_59663403845" id="frame"  style="width: 300px; height: 400px; display:none; position: relative;-webkit-animation-name: example; -webkit-animation-duration: 4s; -webkit-animation-iteration-count: 1;  animation-name: example;   animation-iteration-count: 1;"></iframe>
+
+<button id="someButtonId" class="LPMcontainer LPMoverlay" role="button" tabindex="0" style="margin: -71px 0px 0px auto; padding: 0px; border-style: solid; border-width: 0px; outline-color: rgb(106, 159, 177); outline-width: 2px; font-style: normal; font-weight: normal; font-variant-ligatures: normal; font-variant-caps: normal; list-style: none outside none; letter-spacing: normal; line-height: normal; text-decoration: none; vertical-align: baseline; white-space: normal; word-spacing: normal; background-repeat: repeat-x; background-position: left bottom; background-color: transparent; border-color: transparent; border-radius: 2px; width: 39px; height: 142px; cursor: pointer; display: block; z-index: 107158; position: fixed; top: 50%; bottom: auto; left: auto; right: 0px;"><img src="./Support and services _ Capita SIMS_files/IlTfQCC.png" id="LPMimage-1500546314994-1" alt="Live chat" class="LPMimage" style="margin: 0px; padding: 0px; border-style: none; border-width: 0px; outline-color: rgb(106, 159, 177); outline-width: 2px; font-style: normal; font-weight: normal; font-variant-ligatures: normal; font-variant-caps: normal; list-style: none outside none; letter-spacing: normal; line-height: normal; text-decoration: none; vertical-align: baseline; white-space: normal; word-spacing: normal; position: absolute; z-index: 600; left: 0px; top: 0px;"></button></body></html>

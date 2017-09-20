@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n:dialog xsi:schemaLocation="http://cto.net/hmi schema1.xsd" xmlns:n="http://cto.net/hmi/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="ola" company="deasra">
+	<start_task_name>start</start_task_name>
+	<global_language>en</global_language>
+	<useSODA>false</useSODA>
+	<allowSwitchTasks>true</allowSwitchTasks>
+	<allowOverAnswering>true</allowOverAnswering>
+	<allowDifferentQuestion>true</allowDifferentQuestion>
+	<allowCorrection>true</allowCorrection>
+	<useIntentEngine>true</useIntentEngine>
+	<tasks>
+		<task name="start">
+			<selector>
+				<bagOfWordsTaskSelector>
+					<word>hello</word>
+				</bagOfWordsTaskSelector>
+			</selector>
+			<itos>
+				<ito name="welcome">
+					<AQD>
+						<type>
+							<answerType>open_ended</answerType>
+						</type>
+					</AQD>
+					<fallback_question>					
+					 how may I help you?
+					</fallback_question>
+					<required>true</required>
+				</ito>
+			</itos>
+		</task>
+		<task name="getFAQ" label="Find FAQ">
+			<selector/>
+			<itos>
+				<ito label="Question" name="getQuestion">
+					<AQD>
+						<type>
+							<answerType>dummy</answerType>
+						</type>
+					</AQD>
+					<fallback_question>OK</fallback_question>
+					<required>true</required>
+				</ito>
+			</itos>
+			<action>
+				<groovyAction>
+					<returnAnswer>true</returnAnswer>
+					<utteranceTemplate>#chat</utteranceTemplate>
+					<code>
+						<![CDATA[import org.codehaus.jettison.json.JSONException
+                    import org.codehaus.jettison.json.JSONObject
+                    String question=new String(frame.get("getQuestion"));
+					String body = new String ("");
+                    String chat = new String ("");
+					if(question.equalsIgnoreCase("NO") || question.equalsIgnoreCase("NOT") || question.equalsIgnoreCase("N")){
+						chat = "raise a Ticket";
+					
+					}else{
+						String api = "http://localhost:8081/get_answer";
+						String urlParam = "?userUtterance="+ URLEncoder.encode(question, "UTF-8")+"&bookId=123";
+						def url = new URL(api+urlParam);
+						def connection = url.openConnection();
+						connection.requestMethod = 'GET';
+						if (connection.responseCode == 200 || connection.responseCode == 201 ) {
+							body = connection.content.text;
+						
+							JSONObject json = new JSONObject(body);
+							
+							chat = json.get("result").getString("answer");
+							
+							articleId = json.get("result").getString("articleId");
+							chat = chat+"articleId:"+articleId+":";
+							
+							//if(chat === null || chat == undefined || chat == "")
+							//	chat = "NA";
+							//if (json.has("response"))
+							//chat = json.getString("response");
+							
+							if (chat.equals("NA"))
+							chat="Sorry, I did not understand that.";
+						}else{
+							//body = connection.content.text;
+							chat = "Sorry, I did not understand that.";
+						}
+					}
+                    
+                    
+					//executionResults.put("articleId",articleId);
+                    executionResults.put("body",body);
+                    executionResults.put("chat",chat);]]>
+					</code>
+				</groovyAction>
+			</action>
+		</task> <!--
+		<task name="cancelTask" label="Cancel Task">
+			<selector>
+			</selector>
+			<followup>
+				<ito label="cancel Decision" name="cancelDecision">
+					<AQD>
+						<type>
+							<answerType>custom.item_8</answerType>
+						</type>
+					</AQD>
+					<fallback_question>Do you want to cancel the task?</fallback_question>
+					<required>true</required>
+				</ito>
+				<answerMapping>
+					<item key="Yes">start</item>
+				</answerMapping>
+			</followup>
+			<action>
+				<groovyAction>
+					<returnAnswer>false</returnAnswer>
+					<utteranceTemplate />
+					<code />
+				</groovyAction>
+			</action>
+		</task> -->
+	</tasks>
+</n:dialog>

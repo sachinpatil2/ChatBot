@@ -1,0 +1,1 @@
+@page{margin:2cm}body{background:#fff}h1,h2,h3{page-break-after:avoid}img,ol,ul{page-break-inside:avoid}@media print and (color){*{-webkit-print-color-adjust:exact;print-color-adjust:exact}}a[href^=http]:after{content:" <" attr(href) "> "}

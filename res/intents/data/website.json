@@ -1,0 +1,81 @@
+{
+	"domain": "website",
+	"tasks": [{
+		"name": "addButton",
+		"utterances": ["I want to add a button",
+		"Please add button"]
+	},
+	{
+		"name": "addImage",
+		"utterances": ["I want to add an image",
+		"Please add image"]
+	},
+	{
+		"name": "start",
+		"utterances": ["hi",
+		"Hello","hello","hey"]
+	},
+	{
+		"name": "cancelTask",
+		"utterances": ["cancel this task",
+		"I want to exit this",
+		"Get me out of this task",
+		"cancel this process",
+		"I want to end this process",
+		"get me out of this process"
+		]
+	},
+	{
+		"name": "addTextField",
+		"utterances": ["I want to add a text field",
+		"Please add text field"]
+	},
+	{
+		"name": "addEmail",
+		"utterances": ["I want to add an email field",
+		"Please add email field"]
+	},
+	{
+		"name": "addContact",
+		"utterances": ["I want to add a contact field",
+		"Please add a contact field"]
+	},
+	{
+		"name": "oldForm",
+		"utterances": ["I want to load a form",
+		"Please load my form"]
+	},
+	{
+		"name": "newForm",
+		"utterances": ["I want to add a form",
+		"Please add a form","I want to add a new form"]
+	},
+	{
+		"name": "deleteForm",
+		"utterances": ["I want to delete a form",
+		"Please delete form"]
+	},
+	{
+		"name": "addTestCase",
+		"utterances": ["I want to add a test case",
+		"Please add test case"]
+	},
+	{
+		"name": "deleteTestCase",
+		"utterances": ["I want to delete a test case",
+		"Please delete a test case"]
+	},
+	{
+		"name": "addDate",
+		"utterances": ["I want to add a date field",
+		"Please add a date field"]
+	},
+	{
+		"name": "displayForm",
+		"utterances": ["I want to see the final form",
+		"Please show me the final form",
+		"I want to display a form",
+		"Please display a form"]
+	}
+	]
+}

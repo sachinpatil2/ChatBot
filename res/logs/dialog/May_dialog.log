@@ -1,0 +1,6 @@
+Sun May 14 10:23:41 IST 2017 domain:dummy2 user:dummy id:d1-345 dialog:"S":"How may I help you?"
+Sun May 14 10:28:10 IST 2017 domain:dummy2 user:dummy id:d1-345 dialog:"S":"How may I help you?"
+Sun May 14 10:29:31 IST 2017 domain:dummy2 user:dummy id:d1-345 dialog:"S":"How may I help you?","U":"Good Morning","S":"Hello and hope you are good this morning. How may I help you?","U":"Book a ticket","S":"where do you want to go?"
+Sun May 14 10:45:04 IST 2017 domain:dummy2 client_ip:ip user:dummy id:d1-345 dialog:"S":"How may I help you?","U":"Good Morning","S":"Hello and hope you are good this morning. How may I help you?","U":"Book a ticket","S":"where do you want to go?"
+Sun May 14 10:46:25 IST 2017 domain:dummy2 client_ip:ip user:dummy id:d1-345 dialog:"S":"How may I help you?","U":"Good Morning","S":"Hello and hope you are good this morning. How may I help you?","U":"Book a ticket","S":"where do you want to go?"
+Sun May 14 10:47:02 IST 2017 domain:dummy2 client_ip:ip user:dummy id:d1-345 dialog:"S":"How may I help you?","U":"Good Morning","S":"Hello and hope you are good this morning. How may I help you?","U":"Book a ticket","S":"where do you want to go?"

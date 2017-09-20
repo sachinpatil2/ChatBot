@@ -1,0 +1,150 @@
+{
+	"domain": "pizza_order",
+	"tasks": [{
+		"name": "showMenu",
+		"utterances": ["what menus do you have",
+		"i want to see list of food items","what can i order ",
+		"what all things i can order",
+		"show me the list of menu",
+		"show me the menu",
+		"list of items",
+		"show me the list of items",
+		"list the menu"]
+	},
+	{
+		"name": "showPizzaMenu",
+		"utterances": ["what options you have in pizzas",
+		"show me pizza menu","list of pizza menu","what can i order in pizza",
+		"what items you have in pizza","what can i order in pizza menu",
+		"what items you have in pizza menu"]
+	},
+	{
+		"name": "showWingsMenu",
+		"utterances": ["what options you have in wings",
+		"show me wings menu",
+		"list of wings menu","what can i order in wings",
+		"what items you have in wings","what can i order in wings menu",
+		"what items you have in wings menu"]
+	},
+	{
+		"name": "showSideMenu",
+		"utterances": ["what options you have in sides menu",
+		"show me sides menu",
+		"list of side menu",
+		"what can i order in sides menu",
+		"what items you have in sides"]
+	},
+	{
+		"name": "showDrinkMenu",
+		"utterances": ["what options you have in drinks menu",
+		"show me drink menu",
+		"show me some drinks",
+		"list of drinks menu",
+		"what can i order in drinks menu",
+		"what items you have in drinks"
+		]
+	},
+	{
+		"name": "showLocations",
+		"utterances": ["what are your delivery locations",
+		"show me your delivery centres",
+		"let me know your delivery centres",
+		"where can i find delivery centre"
+		]
+	},
+	{
+		"name": "getMainOrder",
+		"utterances": ["i want to place an order",
+		"here is my main order",
+		"i want to order food",
+		"my order goes like this"
+		]
+	},
+	{
+		"name": "getOrderPizza",
+		"utterances": ["i want to order pizza",
+		"order pizza",
+		"order meat pizza",
+		"order supreme pizza",
+		"order primo meats pizza",
+		"order bbq bacon",
+		"order barbeque bacon",
+		"order chicken pizza",
+		"order hawaiian chicken",
+		"order bbq chicken pizza",
+		"order barbeque chicken pizza",
+		"order chicken bacon pizza",
+		"order veggie pizza",
+		"order premium garden pizza",
+		"order ultimate cheese pizza",
+		"order veggie lover pizza"
+		]
+	},
+	{
+		"name": "getOrderWings",
+		"utterances": ["i want to order wings",
+		"order wings",
+		"order breaded bone out wings",
+		"order party wings meal wings",
+		"order traditional bone in wings"
+		]
+	},
+	{
+		"name": "getOrderSides",
+		"utterances": ["i want to order sides",
+		"order sides",
+		"order garlic knots sides",
+		"order bread sticks sides",
+		"order cheese sticks sides"
+		]
+	},
+	{
+		"name": "getOrderDrinks",
+		"utterances": ["i want to order drinks",
+		"order drinks",
+		"order pepsi",
+		"order mountain dew",
+		"order mist twist",
+		"order mist twst"
+		]
+	},
+	{
+		"name": "showOrder",
+		"utterances": ["please show me my order",
+		"show me list of my ordered items",
+		"list of items that i have ordered",
+		"what is my order"
+		]
+	},
+	{
+		"name": "domainFAQ",
+		"utterances": ["how long you take to deliver pizza",
+		"how many delivery centres do you have",
+		"what is your call centre number",
+		"how do i reset my password if i have lost or forgotten it",
+		"how will i know when the restaurant received my internet order",
+		"can i use my coupon online",
+		"what payment options are available through internet ordering",
+		"where can i learn more about the gluten-free pizza option"
+		]
+	},
+	{
+		"name": "cancelTask",
+		"utterances": ["cancel this task",
+		"I want to exit this",
+		"Get me out of this task",
+		"cancel this process",
+		"I want to end this process",
+		"get me out of this process"
+		]
+	},
+	{
+		"name": "cancelOrder",
+		"utterances": ["Please cancel my order",
+		"get my order cancelled",
+		"can you cancel my order",
+		"cancel order"
+		]
+	}
+	]
+}

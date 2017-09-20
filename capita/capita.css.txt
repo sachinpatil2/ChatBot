@@ -1,0 +1,12 @@
+ .slider {
+    overflow-y: hidden;
+    max-height: 600px; /* approximate max height */
+    transition: all .3s ease-in;
+    /*transition-property: all;
+    transition-duration: 5.5s;
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);*/
+}
+
+.slider.closed {
+    max-height: 0;
+}

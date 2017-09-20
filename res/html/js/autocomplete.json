@@ -1,0 +1,1013 @@
+[
+  {
+    "question": "Pupil/Student Analysis by Attendance Category Report"
+  },
+  {
+    "question": "Pupil/Student Analysis by Attendance Code Report"
+  },
+  {
+    "question": "Pupil/Student Analysis by Session in Week Report"
+  },
+  {
+    "question": "Pupil/Student Analysis by AM/PM Report"
+  },
+  {
+    "question": "Percentage Attendance Report"
+  },
+  {
+    "question": "Missing Session Marks Report"
+  },
+  {
+    "question": "Persistent Absence Reports"
+  },
+  {
+    "question": "Continuous Absence Report"
+  },
+  {
+    "question": "Official Register Report"
+  },
+  {
+    "question": "Session Absences Report"
+  },
+  {
+    "question": "Pupil/Student's School Career Attendance Report"
+  },
+  {
+    "question": "What report should be run in the event of a Fire?"
+  },
+  {
+    "question": "Individual Session Summary Report"
+  },
+  {
+    "question": "Sibling Absence Detection Report"
+  },
+  {
+    "question": "Joint Absence Detection Report"
+  },
+  {
+    "question": "First Day of Absence Report"
+  },
+  {
+    "question": "Unexplained Absence Report"
+  },
+  {
+    "question": "Today's Register Report"
+  },
+  {
+    "question": "Broken Weeks Report "
+  },
+  {
+    "question": "The Missing Registers Notification Panel shows registers that a teacher has taken and saved. There are no missing marks in the register."
+  },
+  {
+    "question": "What is the difference between Dual Registration and Guest Student?"
+  },
+  {
+    "question": "What are the procedures within SIMS if there was a Fire Evacuation?"
+  },
+  {
+    "question": "How should a Dual Registered student be dealt with in Attendance?"
+  },
+  {
+    "question": "Missing Registers Notification Panel showing registers that are not missing."
+  },
+  {
+    "question": "What are the procedures if there was a Fire Drill?"
+  },
+  {
+    "question": "Class marked appears on missing registers list"
+  },
+  {
+    "question": "Missing Registers widget not working."
+  },
+  {
+    "question": "What is Dual Registration?"
+  },
+  {
+    "question": "The process cannot access the file 'C:\\Documents and Setting\\Administrator\\My Documents\\My SIMS Documents\\Admin SLG\\<name of template used>.csv' because it is being used by another process."
+  },
+  {
+    "question": "When trying to print reports the following error message occurs:Unable to write to file for viewing in Browser"
+  },
+  {
+    "question": "on a day before a student's date of admission, O codes (or any other codes) are showing rather than Z codes"
+  },
+  {
+    "question": "During a period when a student is not on roll marks are showing that are not Z codes."
+  },
+  {
+    "question": "Windows will state that the document is 'locked for use' by another user."
+  },
+  {
+    "question": "Which Attendance Code should be used during a Teacher Strike?"
+  },
+  {
+    "question": "The ROLLBACK TRANSACTION request has no corresponding BEGIN TRANSACTION - After Printing OMR sheets"
+  },
+  {
+    "question": "I would like to know about Which Attendance Code should be used during a Teacher Strike?"
+  },
+  {
+    "question": "Could you tell me why Students are not appearing in Attendance after start of Term"
+  },
+  {
+    "question": "Brief me about why  Students are not appearing in Attendance after start of Term"
+  },
+  {
+    "question": "Could you tell me Which Attendance Code should be used during a Teacher Strike?"
+  },
+  {
+    "question": "Brief me about Which Attendance Code should be used during a Teacher Strike?"
+  },
+  {
+    "question": "I want to know why Students not appearing in Attendance after start of Term"
+  },
+  {
+    "question": "Why Students are not appearing in Attendance after start of Term"
+  },
+  {
+    "question": "Students not appearing in Attendance after start of Term"
+  },
+  {
+    "question": "I would like to know about why Late codes are not being picked up by Registration Certificate, Display marks or other Attendance areas"
+  },
+  {
+    "question": "Could you tell me why Late codes are not being picked up by Registration Certificate, Display marks or other Attendance areas"
+  },
+  {
+    "question": "Can you tell me why Late codes are not being picked up by Registration Certificate, Display marks or other Attendance areas"
+  },
+  {
+    "question": "Please tell me why Late codes are not being picked up by Registration Certificate, Display marks or other Attendance areas"
+  },
+  {
+    "question": "I would like to know why The ROLLBACK TRANSACTION request has no corresponding BEGIN TRANSACTION - After Printing OMR sheets"
+  },
+  {
+    "question": "Could you tell me why The ROLLBACK TRANSACTION request has no corresponding BEGIN TRANSACTION - After Printing OMR sheets"
+  },
+  {
+    "question": "Can you tell me why The ROLLBACK TRANSACTION request has no corresponding BEGIN TRANSACTION - After Printing OMR sheets"
+  },
+  {
+    "question": "Late codes not being picked up by Registration Certificate, Display marks or other Attendance areas"
+  },
+  {
+    "question": "Why The ROLLBACK TRANSACTION request has no corresponding BEGIN TRANSACTION - After Printing OMR sheets"
+  },
+  {
+    "question": "I would like to know about Attendance Code Lock and Unlock Patches for English Maintained Schools Only"
+  },
+  {
+    "question": "Could you tell me about Attendance Code Lock and Unlock Patches for English Maintained Schools Only"
+  },
+  {
+    "question": "Please tell me about Attendance Code Lock and Unlock Patches for English Maintained Schools Only"
+  },
+  {
+    "question": "Brief me about Attendance Code Lock and Unlock Patches for English Maintained Schools Only"
+  },
+  {
+    "question": "Attendance Code Lock and Unlock Patches for English Maintained Schools Only"
+  },
+  {
+    "question": "Could you tell  me why there is Application Fault in Take Register"
+  },
+  {
+    "question": "Brief me about the Application Fault in Take Register"
+  },
+  {
+    "question": "Why there is Application Fault in Take Register"
+  },
+  {
+    "question": "Application Fault in Take Register"
+  },
+  {
+    "question": "Could you tell me why Figures in Attendance reports do not add  up to or exceeding 100%"
+  },
+  {
+    "question": "Breif me about Figures in Attendance reports do not add  up to or exceeding 100%,why"
+  },
+  {
+    "question": "I want to know why Figures in Attendance reports do not add  up to or exceeding 100%"
+  },
+  {
+    "question": "why Figures in Attendance reports do not add  up to or exceeding 100%"
+  },
+  {
+    "question": "Could you tell me How can the user correct the re-admitted record back "
+  },
+  {
+    "question": "Figures in Attendance reports not adding up to or exceeding 100%"
+  },
+  {
+    "question": "Could you tell me about the Application Fault in Take Register"
+  },
+  {
+    "question": "Readmitted student/pupil by mistake - how do I rectify this?"
+  },
+  {
+    "question": "How can the user correct the re-admitted record back ?"
+  },
+  {
+    "question": "Would like to know why Attendance reports showing Total or blank instead of student's name"
+  },
+  {
+    "question": "Brief me about why Attendance reports showing Total or blank instead of student's name"
+  },
+  {
+    "question": "Can to tell me why Attendance reports showing Total or blank instead of student's name"
+  },
+  {
+    "question": "Please tell me why Minutes Late, Comments or Conflicting Marks have been lost"
+  },
+  {
+    "question": "Why Attendance reports showing Total or blank instead of student's name"
+  },
+  {
+    "question": "Would like to know How can the user correct the re-admitted record back "
+  },
+  {
+    "question": "Attendance reports showing Total or blank instead of student's name"
+  },
+  {
+    "question": "Can you tell me How can the user correct the re-admitted record back "
+  },
+  {
+    "question": "Minutes Late, Comments or Conflicting Marks have been lost"
+  },
+  {
+    "question": "Can you please tell me How can you create your own Achievement and Behaviour Types to show in the right click functionalitly?"
+  },
+  {
+    "question": "Brief me abouit How to create your own Achievement and Behaviour Types to show in the right click functionalitly?"
+  },
+  {
+    "question": "How can you add more Achievement and Behaviour types in to the right click feature within Take Register?"
+  },
+  {
+    "question": "How can you create your own Achievement and Behaviour Types to show in the right click functionalitly?"
+  },
+  {
+    "question": "I want to know about why Minutes Late, Comments or Conflicting Marks have been lost"
+  },
+  {
+    "question": "Could  you tell me about Minutes Late, Comments or Conflicting Marks have been lost"
+  },
+  {
+    "question": "Brief me about why Minutes Late, Comments or Conflicting Marks have been lost"
+  },
+  {
+    "question": "How to add more Achievement or Behaviour Types"
+  },
+  {
+    "question": "Legal/Preferred names on the OMR/Register"
+  },
+  {
+    "question": "Brief me about the Application Fault in Take Register  legal requirement to use the student's legal surname or forename on the OMR or register"
+  },
+  {
+    "question": "Can you tell me that Is there a legal requirement to use the student's legal surname or forename on the OMR or register?"
+  },
+  {
+    "question": "Please tell me about  legal requirement to use the student's legal surname or forename on the OMR or register"
+  },
+  {
+    "question": "Is there a legal requirement to use the student's legal surname or forename on the OMR or register?"
+  },
+  {
+    "question": "Why I'm  Unable to send a decode file to OMR - Error when trying to read OMR reg sheet"
+  },
+  {
+    "question": "Unable to send a decode file to OMR - Error when trying to read OMR reg sheet"
+  },
+  {
+    "question": "Would like to know about why  I'm  Unable to send a decode file to OMR"
+  },
+  {
+    "question": "Please tell me about why  I'm  Unable to send a decode file to OMR"
+  },
+  {
+    "question": "Could you tell me why  I'm  Unable to send a decode file to OMR?"
+  },
+  {
+    "question": "Would like to have a brief on why Group Analysis by Vulnerability Report showing students has not having an English as additional language defined, All students have been designated to Yes or No"
+  },
+  {
+    "question": "Please tell me why Group Analysis by Vulnerability Report showing students has not having an English as additional language defined, All students have been designated to Yes or No"
+  },
+  {
+    "question": "Why Group Analysis by Vulnerability Report showing students has not having an English as additional language defined, All students have been designated to Yes or No"
+  },
+  {
+    "question": "Group Analysis by Vulnerability Report showing students has not having an English as additional language defined, All students have been designated to Yes or No"
+  },
+  {
+    "question": "Could you tell me why its showing changes in History of Changes Report from - (missing mark) to any other code"
+  },
+  {
+    "question": "Would like to know about why History of Changes Report shows changes from - (missing mark) to any other code"
+  },
+  {
+    "question": "Brief me on why History of Changes Report shows changes from - (missing mark) to any other code"
+  },
+  {
+    "question": "Why History of Changes Report shows changes from - (missing mark) to any other code"
+  },
+  {
+    "question": "History of Changes Report shows changes from - (missing mark) to any other code"
+  },
+  {
+    "question": "Can you tell me why why Group Analysis by Vulnerability Report showing students has not having an English as additional language defined, All students have been designated to Yes or No"
+  },
+  {
+    "question": "I want to know How exactly are the figures within the Persistent Absence Report calculated"
+  },
+  {
+    "question": "Brief me on How exactly are the figures within the Persistent Absence Report calculated"
+  },
+  {
+    "question": "Why there is Missing Registers Notification Panel shows that Registers that have been taken"
+  },
+  {
+    "question": "How exactly are the figures within the Persistent Absence Report calculated?"
+  },
+  {
+    "question": "How are the values within the Persistent Absence Report Summary calculated?"
+  },
+  {
+    "question": "Missing Registers Notification Panel shows Registers that have been taken"
+  },
+  {
+    "question": "How are the date ranges defined?"
+  },
+  {
+    "question": "Could you tell me why Users in the Class Teacher Permission Group cannot add Comments to cells in the future or cells that have no mark entered"
+  },
+  {
+    "question": "Brief me about why Users in the Class Teacher Permission Group cannot add Comments to cells in the future or cells that have no mark entered"
+  },
+  {
+    "question": "Please tell me why Users in the Class Teacher Permission Group cannot add Comments to cells in the future or cells that have no mark entered"
+  },
+  {
+    "question": "Why Users in the Class Teacher Permission Group cannot add Comments to cells in the future or cells that have no mark entered"
+  },
+  {
+    "question": "Users in the Class Teacher Permission Group cannot add Comments to cells in the future or cells that have no mark entered"
+  },
+  {
+    "question": "Please tell me why Why it shows that registers have benn taken and there is missing registers notification panel"
+  },
+  {
+    "question": "About field does not populate when opening the Communication Log for a student from Take Register"
+  },
+  {
+    "question": "Can you tell me Why there is Missing Registers Notification Panel shows that Registers that have been taken"
+  },
+  {
+    "question": "Why field does not populate when opening the Communication Log for a student from Take Register"
+  },
+  {
+    "question": "Would like to know about Why field does not populate when opening the Communication Log for a student from Take Register"
+  },
+  {
+    "question": "Can you tell me why field does not populate when opening the Communication Log for a student from Take Register"
+  },
+  {
+    "question": "Brief me about Why field does not populate when opening the Communication Log for a student from Take Register"
+  },
+  {
+    "question": "Missing Register Notifications only sent to Registration Tutor when Group is Shared Between Two Members of Staff"
+  },
+  {
+    "question": "Could you tell me why Attendance marks have disappeared but the comments can still be viewed"
+  },
+  {
+    "question": "Can you tell me Why Attendance marks have disappeared but the comments can still be viewed"
+  },
+  {
+    "question": "Please tell me why Attendance marks have disappeared but the comments can still be viewed"
+  },
+  {
+    "question": "Why Attendance marks have disappeared but the comments can still be viewed"
+  },
+  {
+    "question": "Attendance marks have disappeared but comments can still be viewed"
+  },
+  {
+    "question": "Can you tell me why there is  Missing Register Notifications only sent to Registration Tutor when Group is Shared Between Two Members of Staff"
+  },
+  {
+    "question": "Please tell me why there is  Missing Register Notifications only sent to Registration Tutor when Group is Shared Between Two Members of Staff"
+  },
+  {
+    "question": "I want to know why there is  Missing Register Notifications only sent to Registration Tutor when Group is Shared Between Two Members of Staff"
+  },
+  {
+    "question": "Brief me about How can attendance marks be recorded for breakfast/after school clubs outside of AM and PM sessions."
+  },
+  {
+    "question": "Can you tell me How can attendance marks be recorded for breakfast/after school clubs outside of AM and PM sessions."
+  },
+  {
+    "question": "Please tell me How can attendance marks be recorded for breakfast/after school clubs outside of AM and PM sessions."
+  },
+  {
+    "question": "why Missing Register Notifications only sent to Registration Tutor when Group is Shared Between Two Members of Staff"
+  },
+  {
+    "question": "How can attendance marks be recorded for breakfast/after school clubs outside of AM and PM sessions."
+  },
+  {
+    "question": "Recording Attendance for Breakfast/After School Clubs Outside of Sessions"
+  },
+  {
+    "question": "Could you tell me why Custom Reports are Showing Students with 100% Attendance with a Lower Attendance Percentage"
+  },
+  {
+    "question": "Please tell me Why Custom Reports are Showing Students with 100% Attendance with a Lower Attendance Percentage"
+  },
+  {
+    "question": "Tell me why Custom Reports are Showing Students with 100% Attendance with a Lower Attendance Percentage"
+  },
+  {
+    "question": "Why Custom Reports are Showing Students with 100% Attendance with a Lower Attendance Percentage"
+  },
+  {
+    "question": "Custom Reports Showing Students with 100% Attendance with a Lower Attendance Percentage"
+  },
+  {
+    "question": "Please tell  me How to link marksheets to registers."
+  },
+  {
+    "question": "Brief me on How to link marksheets to registers."
+  },
+  {
+    "question": "How to link marksheets to registers."
+  },
+  {
+    "question": "Linking Marksheets To Registers"
+  },
+  {
+    "question": "Printing from Display Marks / Attendance link does not include the Student's name"
+  },
+  {
+    "question": "Please tell me why  Attendance link does not include the Student's name"
+  },
+  {
+    "question": "I want to know why  Attendance link does not include the Student's name"
+  },
+  {
+    "question": "Brief me on why  Attendance link does not include the Student's name"
+  },
+  {
+    "question": "Why  Attendance link does not include the Student's name"
+  },
+  {
+    "question": "Could you tell me  How to add an INSET day in SIMSFocus"
+  },
+  {
+    "question": "Could you tellme How to link marksheets to registers."
+  },
+  {
+    "question": "How to add an INSET day in SIMSFocus"
+  },
+  {
+    "question": "Adding an INSET Day"
+  },
+  {
+    "question": "Can custom Achievement/Behaviour Types to be grouped together in the 'Add Behaviour' or 'Add Achievement' menus when right clicking on a student in Take Register?"
+  },
+  {
+    "question": "Could you tell me why  Medical Condition does not Show when Hovering over Column in Take Register"
+  },
+  {
+    "question": "Please tell me why  Medical Condition does not Show when Hovering over Column in Take Register"
+  },
+  {
+    "question": "Brief me on why  Medical Condition does not Show when Hovering over Column in Take Register"
+  },
+  {
+    "question": "Medical Condition does not Show when Hovering over Column in Take Register / Edit Marks"
+  },
+  {
+    "question": "Why Medical Condition does not Show when Hovering over Column in Take Register"
+  },
+  {
+    "question": "Grouping Together Custom Achievement/Behav iour Types in Take Register"
+  },
+  {
+    "question": "Can you tell me How to add an INSET day in SIMSFocus"
+  },
+  {
+    "question": "Brief me on How to add an INSET day in SIMSFocus"
+  },
+  {
+    "question": "Please tell me if it is  possible that  custom Achievement/Behaviour Types to be grouped together in the 'Add Behaviour' or 'Add Achievement' menus when right clicking on a student in Take Register? "
+  },
+  {
+    "question": "Can you tel me about the possiblity of custom Achievement/Behaviour Types to be grouped together in the 'Add Behaviour' or 'Add Achievement' menus when right clicking on a student in Take Register? "
+  },
+  {
+    "question": "Is it possible that  custom Achievement/Behaviour Types to be grouped together in the 'Add Behaviour' or 'Add Achievement' menus when right clicking on a student in Take Register? "
+  },
+  {
+    "question": "Running Reports on Registration Groups where the Name has been Changed"
+  },
+  {
+    "question": "Is it possible to change the name of a Registration Group?"
+  },
+  {
+    "question": "Please tell me how to change Registration Group Name"
+  },
+  {
+    "question": "How to change Registration Group Name"
+  },
+  {
+    "question": "Brief me on Registration Group Name"
+  },
+  {
+    "question": "Changing Registration Group Name"
+  },
+  {
+    "question": "Please tell me How I can output the attendance reports directly to&nbsp;Word/Excel rather than the web browser?"
+  },
+  {
+    "question": "Is it possible that  Attendance Reports can be output directly to&nbsp;Word/Excel rather than the web browser?"
+  },
+  {
+    "question": "Brief me on the possiblity of  running an on old Registration Groups and on groups where the name has been changed."
+  },
+  {
+    "question": "Can I know how  I can output the attendance reports directly to&nbsp;Word/Excel rather than the web browser?"
+  },
+  {
+    "question": "Can Attendance Reports be output directly to&nbsp;Word/Excel rather than the web browser?"
+  },
+  {
+    "question": "Is it possible to  run on old Registration Groups and on groups where the name has been changed?"
+  },
+  {
+    "question": "Could reports be run on old Registration Groups and on groups where the name has been changed?"
+  },
+  {
+    "question": "Can reports be run on old Registration Groups and on groups where the name has been changed?"
+  },
+  {
+    "question": "Output Attendance Reports to Word/Excel rather than the Web Browser"
+  },
+  {
+    "question": "Cannot insert the value NULL into column 'forename', table '@attendees'; column does not allow nulls. INSERT fails. The statement has been terminated when Opening Edit Marks"
+  },
+  {
+    "question": "Why it shows that registers have benn taken and there is missing registers notification panel"
+  },
+  {
+    "question": "Why I Cannot insert the value NULL into column 'forename'', table '@attendees';"
+  },
+  {
+    "question": "Could you tell me Why attendance letter template is not working "
+  },
+  {
+    "question": "Please tell me Why attendance letter template is not working "
+  },
+  {
+    "question": "Attendance Letters - AttendanceLetter.d ot Template Not Working"
+  },
+  {
+    "question": "Could you tell me why column does not allow nulls."
+  },
+  {
+    "question": "Why attendance letter template is not working "
+  },
+  {
+    "question": "Why column does not allow nulls."
+  },
+  {
+    "question": "Could you tell me why Percentage Attendances in The Group Session Summary and Percentage Attendance Report Do Not Match."
+  },
+  {
+    "question": "Please give me information on why Parental Addressee not appearing on Attendance Letters"
+  },
+  {
+    "question": "why Percentage Attendances in The Group Session Summary and Percentage Attendance Report Do Not Match."
+  },
+  {
+    "question": "Percentage Attendances in The Group Session Summary and Percentage Attendance Report Do Not Match."
+  },
+  {
+    "question": "Could you tell me why Parental Addressee not appearing on Attendance Letters"
+  },
+  {
+    "question": "Brief me on why Parental Addressee not appearing on Attendance Letters"
+  },
+  {
+    "question": "Could you Brief me on Why attendance letter template is not working "
+  },
+  {
+    "question": "Why Parental Addressee not appearing on Attendance Letters"
+  },
+  {
+    "question": "Parental Addressee not appearing on Attendance Letters"
+  },
+  {
+    "question": "Please tell me why Percentage Attendances in The Group Session Summary and Percentage Attendance Report Do Not Match."
+  },
+  {
+    "question": "Brief me on why Percentage Attendances in The Group Session Summary and Percentage Attendance Report Do Not Match."
+  },
+  {
+    "question": "Could you tell me why Exceptional Circumstance Y Code Does Not Overwrite Some Attendance Codes"
+  },
+  {
+    "question": "Please tell me why Exceptional Circumstance Y Code Does Not Overwrite Some Attendance Codes"
+  },
+  {
+    "question": "Brief me on why Exceptional Circumstance Y Code Does Not Overwrite Some Attendance Codes"
+  },
+  {
+    "question": "Why Circumstances - # code has been deleted but is still showing in Edit Marks"
+  },
+  {
+    "question": "Why Exceptional Circumstance Y Code Does Not Overwrite Some Attendance Codes"
+  },
+  {
+    "question": "Circumstances - # code has been deleted but is still showing in Edit Marks"
+  },
+  {
+    "question": "Exceptional Circumstance Y Code Does Not Overwrite Some Attendance Codes"
+  },
+  {
+    "question": "Can you tell me about why Circumstances - # code has been deleted but is still showing in Edit Marks"
+  },
+  {
+    "question": "Is it possible even if Circumstances - # code has been deleted but is still showing in Edit Marks"
+  },
+  {
+    "question": "Please help me out with why Attendance Code Lock and Unlock Patches for the Isle of Man"
+  },
+  {
+    "question": "Brief me on Circumstances - # code has been deleted but is still showing in Edit Marks"
+  },
+  {
+    "question": "Please tell me why is Attendance Code Lock and Unlock Patches for the Isle of Man"
+  },
+  {
+    "question": "Brief me on Attendance Code Lock and Unlock Patches for the Isle of Man"
+  },
+  {
+    "question": "Why is Attendance Code Lock and Unlock Patches for the Isle of Man"
+  },
+  {
+    "question": "Attendance Code Lock and Unlock Patches for the Isle of Man"
+  },
+  {
+    "question": "Attendance Letters - Cannot Print Selected Pages"
+  },
+  {
+    "question": "Please tell  me why Edit Marks - Violation of PRIMARY KEY constraint 'pk_att_mark_hist_ normalised' and Cannot insert duplicate key in object 'sims.att_mark_hist _normalised'"
+  },
+  {
+    "question": "Please tell me why Edit Marks - Violation of PRIMARY KEY constraint 'pk_att_mark_hist_ normalised' and Cannot insert duplicate key in object 'sims.att_mark_hist _normalised'"
+  },
+  {
+    "question": "Brief me on why Edit Marks - Violation of PRIMARY KEY constraint 'pk_att_mark_hist_ normalised' and Cannot insert duplicate key in object 'sims.att_mark_hist _normalised'"
+  },
+  {
+    "question": "Edit Marks - Violation of PRIMARY KEY constraint 'pk_att_mark_hist_ normalised'. Cannot insert duplicate key in object 'sims.att_mark_hist _normalised'"
+  },
+  {
+    "question": "Why I cannot insert duplicate key in object 'sims.att_mark_hist _normalised'"
+  },
+  {
+    "question": "I'm here to know about why Attendance Letters  Cannot Print Selected Pages"
+  },
+  {
+    "question": "Please tell me why Attendance Letters Cannot Print Selected Pages"
+  },
+  {
+    "question": "Brief me on why Attendance Letters Cannot Print Selected Pages"
+  },
+  {
+    "question": "Why Attendance Letters Cannot Print Selected Pages"
+  },
+  {
+    "question": "Could you tell me why Guest Students showing in Attendance when they shouldn't"
+  },
+  {
+    "question": "Can you tell me why Guest Students showing in Attendance when they shouldn't"
+  },
+  {
+    "question": "Please tell me why Guest Students showing in Attendance when they shouldn't"
+  },
+  {
+    "question": "Can you tell me why Missing Marks showing for weekends or holiday"
+  },
+  {
+    "question": "Please tell me why Missing Marks showing for weekends or holiday"
+  },
+  {
+    "question": "Why Guest Students showing in Attendance when they shouldn't"
+  },
+  {
+    "question": "Guest Students showing in Attendance when they shouldn't"
+  },
+  {
+    "question": "Why Missing Marks showing for weekends or holiday"
+  },
+  {
+    "question": "Missing Marks showing for weekends or holiday"
+  },
+  {
+    "question": "Brief me on Pupil Premium in Take Register / Edit Marks and Group Analysis Reports"
+  },
+  {
+    "question": "Explain me Pupil Premium in Take Register / Edit Marks and Group Analysis Reports"
+  },
+  {
+    "question": "Could you tell me why are the Leavers  not included in Attendance Letters"
+  },
+  {
+    "question": "Pupil Premium in Take Register / Edit Marks and Group Analysis Reports"
+  },
+  {
+    "question": "I wan to know Why are the Leavers  not included in Attendance Letters"
+  },
+  {
+    "question": "Brief me on why  are the Leavers  not included in Attendance Letters"
+  },
+  {
+    "question": "Brief me on why Missing Marks showing for weekends or holiday"
+  },
+  {
+    "question": "Why are the Leavers  not included in Attendance Letters"
+  },
+  {
+    "question": "Leavers are not included in Attendance Letters"
+  },
+  {
+    "question": "Please give me information on How to find out who has entered an attendance mark in Take Register or Edit Marks"
+  },
+  {
+    "question": "Could you tell me about How to find out who has entered an attendance mark in Take Register or Edit Marks"
+  },
+  {
+    "question": "Could you please tell me about Pupil Premium in Take Register / Edit Marks and Group Analysis Reports"
+  },
+  {
+    "question": "I want to know about How to find out who has entered an attendance mark in Take Register or Edit Marks"
+  },
+  {
+    "question": "Give me some information on Pupil Premium in Take Register / Edit Marks and Group Analysis Reports"
+  },
+  {
+    "question": "Brief me on How to find out who has entered an attendance mark in Take Register or Edit Marks"
+  },
+  {
+    "question": "How to find out who has entered an attendance mark in Take Register or Edit Marks"
+  },
+  {
+    "question": "Brief me on Withdrawn into symbol appearing in Take Register"
+  },
+  {
+    "question": "Withdrawn into symbol appearing in Take Register"
+  },
+  {
+    "question": "Please provide me information on How to Add Custom Achievement / Behaviour Types in Take Register"
+  },
+  {
+    "question": "I want to know about How to Add Custom Achievement / Behaviour Types in Take Register"
+  },
+  {
+    "question": "Please give me information on Withdrawn into symbol appearing in Take Register"
+  },
+  {
+    "question": "Please tell me How to Add Custom Achievement / Behaviour Types in Take Register"
+  },
+  {
+    "question": "Brief me on How to Add Custom Achievement / Behaviour Types in Take Register"
+  },
+  {
+    "question": "Could you tell me about Withdrawn into symbol appearing in Take Register"
+  },
+  {
+    "question": "I want to know about Withdrawn into symbol appearing in Take Register"
+  },
+  {
+    "question": "How to Add Custom Achievement / Behaviour Types in Take Register"
+  },
+  {
+    "question": "Attendance Letter Templates Not Showing in Letter Definition"
+  },
+  {
+    "question": "I would like to know about why Attendance Letter Templates Not Showing in Letter Definition"
+  },
+  {
+    "question": "Are there any plans to&nbsp nbsp;stop the use of OMR with&nbsp;Attendance / Lesson Monitor"
+  },
+  {
+    "question": "Could you tell me why Attendance Letter Templates Not Showing in Letter Definition"
+  },
+  {
+    "question": "Please tell  me why Attendance Letter Templates Not Showing in Letter Definition"
+  },
+  {
+    "question": "Why Attendance Letter Templates Not Showing in Letter Definition"
+  },
+  {
+    "question": "Please tell was there a date set for  the end of support for OMR"
+  },
+  {
+    "question": "Was there a date set for  the end of support for OMR"
+  },
+  {
+    "question": "Is there a date set for the end of support for OMR?"
+  },
+  {
+    "question": "End of Support for OMR"
+  },
+  {
+    "question": "I want to know about Why there is a error saying Word cannot create a subdocument within a table"
+  },
+  {
+    "question": "Could you tell me Why there is a error saying Word cannot create a subdocument within a table"
+  },
+  {
+    "question": "Could you give me inofrmation on why OMR Registration Sheets only printing 1 or 2 at a time"
+  },
+  {
+    "question": "I would like to know about why OMR Registration Sheets only printing 1 or 2 at a time"
+  },
+  {
+    "question": "Why there is a error saying Word cannot create a subdocument within a table"
+  },
+  {
+    "question": "Please tell me why OMR Registration Sheets only printing 1 or 2 at a time"
+  },
+  {
+    "question": "Why OMR Registration Sheets only printing 1 or 2 at a time"
+  },
+  {
+    "question": "\"Error: Word cannot create a subdocument within a table\""
+  },
+  {
+    "question": "OMR Registration Sheets only printing 1 or 2 at a time"
+  },
+  {
+    "question": "How to add an exceptional circumstance in SIMS.net to accommodate a Snow Day, Polling Day or other circumstance?"
+  },
+  {
+    "question": "Please tell me about Why there is a error saying Word cannot create a subdocument within a table"
+  },
+  {
+    "question": "I would like to knpw about How To Add An Exceptional Circumstance"
+  },
+  {
+    "question": "\"Field is not a valid whole number\" - Attendance Letters"
+  },
+  {
+    "question": "Please tell me How To Add An Exceptional Circumstance"
+  },
+  {
+    "question": "How To Add An Exceptional Circumstance? & Which Code?"
+  },
+  {
+    "question": "Brief me on How To Add An Exceptional Circumstance"
+  },
+  {
+    "question": "Brief me on why Field is not a valid whole number"
+  },
+  {
+    "question": "Explain why Field is not a valid whole number"
+  },
+  {
+    "question": "I would like to know about An invalid character was found in text content"
+  },
+  {
+    "question": "Why The Group Session Summary report is displaying incorrect figures"
+  },
+  {
+    "question": "Could you tell me about An invalid character was found in text content"
+  },
+  {
+    "question": "The Group Session Summary report is displaying incorrect figures"
+  },
+  {
+    "question": "Brief me on An invalid character was found in text content"
+  },
+  {
+    "question": "I would like to know why Field is not a valid whole number"
+  },
+  {
+    "question": "There was An invalid character was found in text content"
+  },
+  {
+    "question": "An invalid character was found in text content"
+  },
+  {
+    "question": "Tell me why Field is not a valid whole number"
+  },
+  {
+    "question": "Can you give me information on How do you change the start time of the AM and PM registers within a Primary School?"
+  },
+  {
+    "question": "Could you tell me  How do you change the start time of the AM and PM registers within a Primary School?"
+  },
+  {
+    "question": "Brief me about How do you change the start time of the AM and PM registers within a Primary School?"
+  },
+  {
+    "question": "Could you tell me why The Group Session Summary report is displaying incorrect figures"
+  },
+  {
+    "question": "Please tell me why The Group Session Summary report is displaying incorrect figures"
+  },
+  {
+    "question": "I wan to know why The Group Session Summary report is displaying incorrect figures"
+  },
+  {
+    "question": "How do you change the start time of the AM and PM registers within a Primary School?"
+  },
+  {
+    "question": "Patch 12349 applied. Z codes showing for a time when the student was off roll."
+  },
+  {
+    "question": "How to change the start time of the AM and PM registers in a Primary School?"
+  },
+  {
+    "question": "Could you tell me why   Z codes showing for a time when the student was off roll."
+  },
+  {
+    "question": "Please tell me why  Z codes showing for a time when the student was off roll."
+  },
+  {
+    "question": "Brief me on why  Z codes showing for a time when the student was off roll."
+  },
+  {
+    "question": "Can you give me information on why I'm Unable to cast COM object of type"
+  },
+  {
+    "question": "Why  Z codes showing for a time when the student was off roll."
+  },
+  {
+    "question": "Could you tell me why I'm Unable to cast COM object of type"
+  },
+  {
+    "question": "Unable to cast COM object of type\" - Attendance Letters"
+  },
+  {
+    "question": "I'm Unable to cast COM object of type, why"
+  },
+  {
+    "question": "Why I'm Unable to cast COM object of type"
+  },
+  {
+    "question": "I would like to know about why there is conflicted with the foreign key constraint when archiving attendance marks"
+  },
+  {
+    "question": "Could you tell me why there is conflicted with the foreign key constraint when archiving attendance marks"
+  },
+  {
+    "question": "The insert statement conflicted with the foreign key constraint when archiving attendance marks"
+  },
+  {
+    "question": "Why there is conflicted with the foreign key constraint when archiving attendance marks"
+  },
+  {
+    "question": "Please tell me about why Interventions column is showing default on a register"
+  },
+  {
+    "question": "Can you tell me why  Interventions column is showing default on a register"
+  },
+  {
+    "question": "Brief me on Interventions column showing by default on a register"
+  },
+  {
+    "question": "Why is Interventions column showing by default on a register"
+  },
+  {
+    "question": "Interventions column showing by default on a register"
+  },
+  {
+    "question": "Brief me on the conflicted with the foreign key constraint when archiving attendance marks"
+  },
+  {
+    "question": "Session Absence Report Is Showing A Blank Column At The End Of Each Student"
+  },
+  {
+    "question": "Why Session Absence Report Is Showing A Blank Column At The End Of Each Student"
+  },
+  {
+    "question": "Could you tell me why Session Absence Report Is Showing A Blank Column At The End Of Each Student"
+  },
+  {
+    "question": "Can you give me information on Session Absence Report Is Showing A Blank Column At The End Of Each Student"
+  },
+  {
+    "question": "Please tell me about Session Absence Report which Is Showing A Blank Column At The End Of Each Student"
+  },
+  {
+    "question": "Registration Certificate Report"
+  }
+]

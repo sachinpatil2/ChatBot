@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <style>
+    .slider {
+    overflow-y: hidden;
+    max-height: 500px; /* approximate max height */
+    transition: all .3s ease-in;
+    /*transition-property: all;
+    transition-duration: 5.5s;
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);*/
+}
+
+.slider.closed {
+    max-height: 0;
+}
+    </style>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js">
+      </script>
+</head>
+
+<body>
+    <iframe tabindex="-1" role="presentation" class="slider" title="Intentionally blank" name="lpSS_59663403845" id="frame" style="width: 300px; height: 400px; bottom: 0px; right: 5%; display:none; position: fixed;-webkit-animation-name: example; -webkit-animation-duration: 0.5s; -webkit-animation-iteration-count: 1;  animation-name: example;   animation-iteration-count: 1;"></iframe>
+    <button id="someButtonId" class="LPMcontainer LPMoverlay" role="button" tabindex="0" style="margin: -71px 0px 0px auto; padding: 0px; border-style: solid; border-width: 0px; outline-color: rgb(106, 159, 177); outline-width: 2px; font-style: normal; font-weight: normal; font-variant-ligatures: normal; font-variant-caps: normal; list-style: none outside none; letter-spacing: normal; line-height: normal; text-decoration: none; vertical-align: baseline; white-space: normal; word-spacing: normal; background-repeat: repeat-x; background-position: left bottom; background-color: transparent; border-color: transparent; border-radius: 2px; width: 39px; height: 142px; cursor: pointer; display: block; z-index: 107158; position: fixed; top: 50%; bottom: auto; left: auto; right: 0px;"><img src="./Support and services _ Capita SIMS_files/IlTfQCC.png" id="LPMimage-1500546314994-1" alt="Live chat" class="LPMimage" style="margin: 0px; padding: 0px; border-style: none; border-width: 0px; outline-color: rgb(106, 159, 177); outline-width: 2px; font-style: normal; font-weight: normal; font-variant-ligatures: normal; font-variant-caps: normal; list-style: none outside none; letter-spacing: normal; line-height: normal; text-decoration: none; vertical-align: baseline; white-space: normal; word-spacing: normal; position: absolute; z-index: 600; left: 0px; top: 0px;"></button>
+</body>
+<script type="text/javascript">
+    $('#someButtonId').click(function(){        
+    $('#frame').toggleClass('show').toggleClass('hide');
+        $("#frame").css("display", "block").attr("src", "http://10.77.216.50:8080/");
+        
+    
+    // $("#frame").attr("src", "http://10.77.216.50:8080/");    
+});
+</script>
+
+</html>

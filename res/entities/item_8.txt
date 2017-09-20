@@ -1,0 +1,6 @@
+yaah=Yes
+yes=Yes
+yep=Yes
+sure=Yes
+no=No
+na=No

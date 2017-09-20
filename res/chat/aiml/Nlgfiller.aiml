@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+
+<category><pattern>NLGFILL</pattern><template>   <random>   <li>And</li>  <li> </li> <li>Well,</li>      <li>OK,</li>      <li>Tell me,</li>   <li>Now tell me,</li>   <li>Can you please tell me,</li>  <li>Can you now please tell me,</li>    <li>Please tell me,</li>  <li>Now please tell me,</li>    </random>    </template></category> 
+</aiml>

@@ -1,0 +1,38 @@
+Wed Aug 09 11:50:40 IST 2017 domain:hotel user:John task:start utterance:asasasa
+Wed Aug 09 11:50:49 IST 2017 domain:hotel user:John task:start utterance:best
+Wed Aug 09 11:51:02 IST 2017 domain:hotel user:John task:start utterance:fine
+Wed Aug 09 12:04:39 IST 2017 domain:hotel user:John task:start utterance:sachi
+Wed Aug 09 12:05:25 IST 2017 domain:hotel user:John task:start utterance:sachin
+Wed Aug 09 12:24:17 IST 2017 domain:hotel user:John task:start utterance:Fine
+Thu Aug 17 14:34:14 IST 2017 domain:hotel user:John task:start utterance:I am goof
+Thu Aug 17 14:34:17 IST 2017 domain:hotel user:John task:start utterance:I am good
+Thu Aug 17 14:34:36 IST 2017 domain:hotel user:John task:start utterance:sad
+Thu Aug 17 15:20:27 IST 2017 domain:hotel user:John task:start utterance:I want to add a text field
+Thu Aug 17 15:38:15 IST 2017 domain:hotel user:John task:bookHotel utterance:book a hotel
+Sat Aug 19 14:30:19 IST 2017 domain:hotel user:John task:getWikipediaCityInfo utterance:city:solapur; 
+Sat Aug 19 14:51:28 IST 2017 domain:faq user:John task:start utterance:what is cibil
+Sat Aug 19 14:51:39 IST 2017 domain:faq user:John task:start utterance:no
+Sat Aug 19 14:56:15 IST 2017 domain:faq user:John task:start utterance:no
+Sat Aug 19 14:56:30 IST 2017 domain:faq user:John task:start utterance:what is cibil?
+Sat Aug 19 15:00:22 IST 2017 domain:faq user:John task:start utterance:what is cibil
+Sat Aug 19 15:02:59 IST 2017 domain:faq user:John task:start utterance:waht is cibil
+Sat Aug 19 15:04:09 IST 2017 domain:faq user:John task:start utterance:what
+Sat Aug 19 15:07:38 IST 2017 domain:faq user:John task:start utterance:what is cibil
+Sat Aug 19 15:08:54 IST 2017 domain:faq user:John task:start utterance:what is cibil
+Sat Aug 19 15:11:03 IST 2017 domain:faq user:John task:start utterance:nothing
+Sat Aug 19 15:12:13 IST 2017 domain:faq user:John task:start utterance:what is cibil
+Sat Aug 19 15:13:04 IST 2017 domain:faq user:John task:start utterance:what
+Sat Aug 19 15:13:46 IST 2017 domain:faq user:John task:start utterance:ovident occaecati exce
+Sat Aug 19 15:14:17 IST 2017 domain:faq user:John task:start utterance:dsdsds
+Sat Aug 19 15:14:49 IST 2017 domain:faq user:John task:start utterance:how are you?
+Sat Aug 19 15:15:27 IST 2017 domain:faq user:John task:start utterance:dsdsd
+Sat Aug 19 15:21:31 IST 2017 domain:faq user:John task:start utterance:what is?
+Sat Aug 19 15:21:47 IST 2017 domain:faq user:John task:start utterance:whats
+Sat Aug 19 15:58:43 IST 2017 domain:faq user:John task:start utterance:what is cibil
+Sat Aug 19 16:01:37 IST 2017 domain:faq user:John task:start utterance:what is cibil
+Fri Aug 25 15:29:03 IST 2017 domain:faq user:John task:start utterance:Registration Certificate Report
+
+Mon Aug 28 12:00:17 IST 2017 domain:hotel user:John task:start utterance:Removing Items from the Report Header/Footer
+Mon Aug 28 12:05:15 IST 2017 domain:hotel user:John task:start utterance:Removing Items from the Report Header/Footer
+Mon Aug 28 12:05:56 IST 2017 domain:hotel user:John task:start utterance:Removing Items from the Report Header/Footer
+Thu Aug 31 19:40:04 IST 2017 domain:hotel user:John task:start utterance:What is Dual Registration?

@@ -1,0 +1,7 @@
+veg=v
+Veg=v
+VEG=v
+nonveg=nv
+Non-veg=nv
+NON-VEG=nv
+non veg=nv

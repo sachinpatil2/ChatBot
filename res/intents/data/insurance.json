@@ -1,0 +1,151 @@
+{
+	"domain": "insurance",
+	"tasks": [{
+		"name": "listCertificate",
+		"utterances": ["Certificates",
+		"I want to get a certificate of insurance",
+		"can you give me a certificate of liability insurance",
+		"I want to see my new certificate",
+		"show my certificate",
+		"show me the list of certificates"]
+	},
+	{
+		"name": "createNewCertificate",
+		"utterances": ["New certificate",
+		"I need new certificate"]
+	},
+	{
+		"name": "listEndorsement",
+		"utterances": ["Endorsements",
+		"show my endorsements",
+		"show me the list of endorsements"]
+	},
+	{
+		"name": "createNewEndorsement",
+		"utterances": ["New endorsement",
+		"Add truck to my policy",
+		"Add model S to my policy",
+		"I want to add a Honda SUV to my umbrella policy",
+		"I want to see my new endorsement"]
+	},
+	{
+		"name": "getDocument",
+		"utterances": ["Document",
+		"Show Document",
+		"List Documents",
+		"View Document"
+		]
+	},
+	{
+		"name": "listSummary",
+		"utterances": ["I want to see my summary of insurance",
+		"Show my insurance summary"
+		]
+	},
+	{
+		"name": "listidCard",
+		"utterances": ["Auto id card",
+		"ID card",
+		"I want proof of insurance for my dump truck",
+		"I want auto ID for my ford",
+		"Auto id for my awesome Chevy"
+		]
+	},
+	{
+		"name": "listPolicy",
+		"utterances": ["Policy",
+		"View policy",
+		"Show Policy",
+		"List Policy",
+		"Auto policy document"
+		]
+	},
+	{
+		"name": "PolicyDate",
+		"utterances": ["what is the effective date of my workers comp policy",
+		"what is the issue date of my auto policy",
+		"when does my crop insurance policy renew",
+		"when does my policy renew"
+		]
+	},
+	{
+		"name": "coveragePage",
+		"utterances": ["what is deductible on my Workers comp policy",
+		"How much coverage do I have on my workers compensation policy",
+		"What coverages do I have on my commercial auto policy",
+		"what coverage do I have on my truck",
+		"What is limit on my car"
+		]
+	},
+	{
+		"name": "listClaims",
+		"utterances": ["Claims",
+		"How many open claims do I have",
+		"Show my open claims",
+		"When was my claim opened"
+		]
+	},
+	{
+		"name": "claimAmount",
+		"utterances": ["What is my claim amount"
+		]
+	},
+	{
+		"name": "contact",
+		"utterances": ["Contacts"
+		]
+	},
+	{
+		"name": "contactBroker",
+		"utterances": ["Contact my broker"
+		]
+	},
+	{
+		"name": "contactSupport",
+		"utterances": ["Contact support"
+		]
+	},
+	{
+		"name": "callBroker",
+		"utterances": ["Call my broker",
+		"Please have my broker call me"
+		]
+	},
+	{
+		"name": "callClaims",
+		"utterances": ["Speak with Claims"
+		]
+	},
+	{
+		"name": "callPerson",
+		"utterances": ["I want to talk to Mike about my endorsement"
+		]
+	},
+	{
+		"name": "sendMail",
+		"utterances": ["Send email to broker about my open claim"
+		]
+	},
+	{
+		"name": "messagePerson",
+		"utterances": ["Msg Tim about my claim"
+		]
+	},
+	{
+		"name": "appointment",
+		"utterances": ["I want to schedule a claims meeting with Bob next Tuesday at 10:00",
+		"Schedule appointement with my broker"
+		]
+	},
+	{
+		"name": "cancelTask",
+		"utterances": ["cancel this task",
+		"I want to exit this",
+		"Get me out of this task",
+		"cancel this process",
+		"I want to end this process",
+		"get me out of this process"
+		]
+	}
+	]
+}

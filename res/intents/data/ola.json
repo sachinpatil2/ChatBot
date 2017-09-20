@@ -1,0 +1,24 @@
+{
+	"domain": "ola",
+	"tasks": [{
+		"name": "startOLAConversation",
+		"utterances": ["I want to do business with OLA",
+		"OLA",
+		"I am ok with OLA",
+		"I am interested with OLA Business"]
+	},
+	{ "name": "dummyIntent",
+		"utterances": ["book a movie ticket"]
+	},
+	{
+		"name": "cancelTask",
+		"utterances": ["cancel this task",
+		"I want to exit this",
+		"Get me out of this task",
+		"cancel this process",
+		"I want to end this process",
+		"get me out of this process"
+		]
+	}
+	]
+}

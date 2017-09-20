@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n:dialog 	xsi:schemaLocation="http://cto.net/hmi schema1.xsd" 
+			xmlns:n="http://cto.net/hmi/1.0" 
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+			name="tripBooking" company="deasra">
+	<start_task_name>start</start_task_name>
+	<global_language>en</global_language>
+	<useSODA>true</useSODA>
+	<allowSwitchTasks>true</allowSwitchTasks>
+	<allowOverAnswering>true</allowOverAnswering>
+	<allowDifferentQuestion>true</allowDifferentQuestion>
+	<allowCorrection>true</allowCorrection>
+	<tasks>
+		<task name="start">
+			<selector>
+				<bagOfWordsTaskSelector>
+					<word>hello</word>
+				</bagOfWordsTaskSelector>
+			</selector>
+			<itos>
+				<ito name="welcome">
+					<AQD>
+						<type>
+							<answerType>open_ended</answerType>
+						</type>
+					</AQD>
+					<fallback_question>How may I help you?</fallback_question>
+					<required>true</required>
+				</ito>
+			</itos>
+		</task>
+		<task name="getTripInformation" label="Book ticket">
+			<selector>
+				<bagOfWordsTaskSelector>
+					<word>book</word>
+					<word>trip</word>
+					<word>journey</word>
+					<word>travel</word>
+				</bagOfWordsTaskSelector>
+			</selector>
+			<itos>
+				<ito name="getDepartureCity" label="From city">
+					<AQD>
+						<type>
+							<answerType>sys.location.city</answerType>
+						</type>
+					</AQD>
+					<fallback_question>where do you want to start?</fallback_question>
+					<required>true</required>
+				</ito>
+				<ito name="getDestinationCity" label="To city">
+					<AQD>
+						<type>
+							<answerType>sys.location.city</answerType>
+						</type>
+					</AQD>
+					<fallback_question>where do you want to go?</fallback_question>
+					<required>true</required>
+				</ito>
+				<ito name="getNumberOfPersons" label="No of persons">
+					<AQD>
+						<type>
+							<answerType>sys.number</answerType>
+						</type>
+					</AQD>
+					<fallback_question>for how many persons?</fallback_question>
+					<required>true</required>
+				</ito>
+				<ito name="getStartDate" label="Start Date">
+					<AQD>
+						<type>
+							<answerType>sys.temporal.date</answerType>
+						</type>
+					</AQD>
+					<fallback_question>when do you want to leave?</fallback_question>
+					<required>true</required>
+				</ito>
+				<ito name="getEndDate" label="End Date">
+					<AQD>
+						<type>
+							<answerType>sys.temporal.date</answerType>
+						</type>
+					</AQD>
+					<fallback_question>when do you want to come back?</fallback_question>
+					<required>true</required>
+				</ito>
+			</itos>
+			<action>
+				<groovyAction>
+					<resultMappings>
+						<resultMapping>
+							<message/>
+							<redirectToTask>start</redirectToTask>
+							<resultValue>1</resultValue>
+							<resultVarName>action</resultVarName>
+						</resultMapping>
+					</resultMappings>
+					<returnAnswer>true</returnAnswer>
+					<utteranceTemplate>#result</utteranceTemplate>
+					<code>
+						<![CDATA[
+						import org.codehaus.jettison.json.JSONException;
+						import org.codehaus.jettison.json.JSONObject;
+						Integer action = new Integer(1);
+						Integer totalPerson = new Integer(frame.get("getNumberOfPersons"));
+						Integer amount = totalPerson * 150;
+						
+						String body = new String ("{\"message\":{\"data\":{\"error\":\"\",\"info\":{\"image\":\"<div><img src='img/ticket.jpg' alt='ticket.jpeg'> </div>\",\"video\":\"<div class='video-container'><iframe src='https://www.youtube.com/embed/CToZAf65j5M' frameborder='0' allowfullscreen class='video'></iframe></div>\",\"audio\":\"\",\"text\":\"Your ticket is booked. Please see the details in attached ticket.\"}},\"chat\":\"<p>Your ticket is booked successfully for " + amount + " Dollars. Wish you a happy journey.</p><a href='https://www.irctc.co.in/eticketing/loginHome.jsf'>Click here for login.</a>\"}}");
+						
+						//JSONObject json = new JSONObject(body);
+						executionResults.put("body",body);
+						
+						executionResults.put("action",action.toString());
+						]]>
+					</code>
+				</groovyAction>
+			</action>
+		</task>
+		<task name="confirmTicket">
+			<selector>
+				<bagOfWordsTaskSelector>
+					<word>-NA-</word>
+				</bagOfWordsTaskSelector>
+			</selector>
+			<followup>
+				<ito name="confirmation">
+					<AQD>
+						<type>
+							<answerType>sys.decision</answerType>
+						</type>
+					</AQD>
+					<fallback_question>Do you want to confirm this ticket?</fallback_question>
+					<required>true</required>
+				</ito>
+				<answerMapping>
+					<item key="YES">start</item>
+				</answerMapping>
+			</followup>
+		</task>
+		<task name="getWeatherInformation" label="Weather information">
+			<selector>
+				<bagOfWordsTaskSelector>
+					<word>weather|forecast|temperature</word>
+				</bagOfWordsTaskSelector>
+			</selector>
+			<itos>
+				<ito name="getDepartureCity" label="City">
+					<AQD>
+						<type>
+							<answerType>sys.location.city</answerType>
+						</type>
+					</AQD>
+					<fallback_question>for which city do you want to know the weather?</fallback_question>
+					<required>true</required>
+					<useContext>true</useContext>
+				</ito>
+			</itos>
+			<action>
+				<httpAction>
+					<returnAnswer>true</returnAnswer>
+					<utteranceTemplate>#result</utteranceTemplate>
+					<method>get</method>
+					<params>cityName=%getDepartureCity</params>
+					<url>http://localhost:8090/lima/serlayer/weather</url>
+					<xpath/>
+					<jpath>$..message</jpath>
+				</httpAction>
+			</action>
+		</task>
+		<task name="getWikipediaCityInfo" label="City information">
+			<selector>
+				<bagOfWordsTaskSelector>
+					<word>city</word>
+					<word>know *</word>
+				</bagOfWordsTaskSelector>
+			</selector>
+			<itos>
+				<ito name="getDepartureCity" label="City">
+					<AQD>
+						<type>
+							<answerType>sys.location.city</answerType>
+						</type>
+					</AQD>
+					<fallback_question>what city do you want to know more about?</fallback_question>
+					<required>true</required>
+				</ito>
+			</itos>
+			<action>
+				<httpAction>
+					<returnAnswer>true</returnAnswer>
+					<utteranceTemplate>#result</utteranceTemplate>
+					<method>get</method>
+					<params>cityName=%getDepartureCity</params>
+					<url>http://localhost:8090/lima/serlayer/cityInfo</url>
+					<xpath/>
+					<jpath>$..message</jpath>
+				</httpAction>
+			</action>
+			<followup>
+				<ito name="anotherOne">
+					<AQD>
+						<type>
+							<answerType>sys.decision</answerType>
+						</type>
+					</AQD>
+					<fallback_question>do you want to know about other cities?</fallback_question>
+					<required>true</required>
+				</ito>
+				<answerMapping>
+					<item key="YES">getWikipediaCityInfo</item>
+				</answerMapping>
+			</followup>
+		</task>
+		<task name="cancelTask" label="Cancel">
+			<act>seek</act>
+			<selector>
+				<bagOfWordsTaskSelector>
+					<word>cancel task</word>
+					<word>close task</word>
+					<word>exit task</word>
+					<word>bye</word>
+					<word>exit</word>
+				</bagOfWordsTaskSelector>
+			</selector>
+			<followup>
+				<ito name="cancelDecision">
+					<AQD>
+						<type>
+							<answerType>sys.decision</answerType>
+						</type>
+					</AQD>
+					<fallback_question>Do you want to cancel the task?</fallback_question>
+					<required>true</required>
+				</ito>
+				<answerMapping>
+					<item key="YES">start</item>
+				</answerMapping>
+			</followup>
+			<action>
+				<groovyAction>
+					<returnAnswer>false</returnAnswer>
+					<utteranceTemplate/>
+					<code/>
+				</groovyAction>
+			</action>
+		</task>
+	</tasks>
+</n:dialog>
