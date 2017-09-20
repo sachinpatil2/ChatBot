@@ -72,7 +72,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="ola" company="deasra
 					}else{
 					
 					try {
-						Proxy proxy = new Proxy(Proxy.Type.HTTP, new InetSocketAddress("ptproxy.persistent.co.in", 8080));
+						Proxy proxy = new Proxy(Proxy.Type.HTTP, new InetSocketAddress("<PROXY_SERVER>", <PROXY_PORT>));
 						URL url = new URL("http://workappsinc.cloudapp.net:7171/get_answer/");
 						HttpURLConnection conn = (HttpURLConnection) url.openConnection(proxy);
 						conn.setDoOutput(true);
